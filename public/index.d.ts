@@ -1,6 +1,6 @@
-import { IncomingMessage, ServerResponse } from "http";
-import { GraphQLScalarType } from "graphql";
-import { ReadStream } from "fs";
+import type { IncomingMessage, ServerResponse } from "http";
+import type { GraphQLScalarType } from "graphql";
+import type { ReadStream } from "fs";
 
 import type { RequestHandler } from "express";
 import type { DefaultContext, DefaultState, Middleware } from "koa";
